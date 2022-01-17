@@ -3,10 +3,12 @@ import { UserContext } from './UserContext'
 
 export const LoginScreen = () => {
     const { setUser} = useContext(UserContext);
+
     const us = {
         id:234,
         name: 'Juan Daniel'
     }
+    
     return (
         <div>
             <h1>LoginScreen</h1>
